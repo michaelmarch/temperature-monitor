@@ -45,7 +45,7 @@ async function enable() {
             0,
             1.0,
             GPU === GPU_NONE
-                ? updateCPU.bind(this, Commands[CPU])
+                ? updateCPU.bind(this, Commands[CPU], cpuPanelText)
                 : updateAll.bind(
                       this,
                       Commands[CPU],

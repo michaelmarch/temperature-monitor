@@ -50,7 +50,7 @@ var updateAll = async (cpuCommand, cpuLabel, gpuCommand, gpuLabel) => {
 var updateCPU = async (command, label) => {
     try {
         let [, output] = await readFile(command);
-        output = parseInt(decoder.decode(output2) / 1000);
+        output = parseInt(decoder.decode(output) / 1000);
         label.set_text(`C: ${output} °C`);
     } catch (e) {
         logError(e);
