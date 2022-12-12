@@ -1,0 +1,12 @@
+{
+    "name": "TemperatureMonitor",
+    "description": "Monitors the temperature of both GPU and CPU",
+    "shell-version": [
+        "43",
+        "42",
+        "41"
+    ],
+    "url": "",
+    "uuid": "temperature-monitor@neqstech.pl",
+    "version": 1.0
+}
